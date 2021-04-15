@@ -1,0 +1,41 @@
+*{
+	margin: 0 auto;
+}
+li > a {
+	color: #59023B;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 90px;
+}
+
+li > a:hover{
+	color: #BF5687;
+}
+.navbar-left{
+	float: left;
+	display: inline-flex;
+	align-items: center;
+}
+.navbar-left > ul {
+	margin-top: -8px;
+}
+.navbar-left:after{
+	clear:both;
+	margin: 0;
+}
+.search-border{
+	display: flex;
+}
+.search-border > button{
+	display: flex;
+	align-items: baseline;
+	background-color: #59023B;
+	color: white;
+}
+.search-border > button:hover{
+	color: white;
+}
+.search-border > button > span{
+	margin-left: 10px;
+	margin-top: -1px;
+}
